@@ -109,31 +109,31 @@
 
             #region Part 3
 
-            Employee[] emps = new Employee[3];
+            //Employee[] emps = new Employee[3];
 
-            emps[0] = Employee.addEmployee(SecurityPrevilege.DBA);
-            emps[1] = Employee.addEmployee(SecurityPrevilege.guest);
-            emps[2] = Employee.addEmployee(SecurityPrevilege.DBA| SecurityPrevilege.guest | SecurityPrevilege.secretary| SecurityPrevilege.Developer );
-
-
-
-            foreach (Employee e in emps)
-            {
-                Console.WriteLine(e.ToString());
-                Console.WriteLine("=======================================================================================");
-            }
+            //emps[0] = Employee.addEmployee(SecurityPrevilege.DBA);
+            //emps[1] = Employee.addEmployee(SecurityPrevilege.guest);
+            //emps[2] = Employee.addEmployee(SecurityPrevilege.DBA| SecurityPrevilege.guest | SecurityPrevilege.secretary| SecurityPrevilege.Developer );
 
 
 
-            Console.WriteLine("\n");
-            Console.WriteLine("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Sorting By Hiring Date xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
+            //foreach (Employee e in emps)
+            //{
+            //    Console.WriteLine(e.ToString());
+            //    Console.WriteLine("=======================================================================================");
+            //}
 
-            emps = Employee.sortEmployess(emps);
 
-            foreach (Employee emp   in emps)
-            {
-                Console.WriteLine(emp.ToString());
-            }
+
+            //Console.WriteLine("\n");
+            //Console.WriteLine("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Sorting By Hiring Date xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
+
+            //emps = Employee.sortEmployess(emps);
+
+            //foreach (Employee emp   in emps)
+            //{
+            //    Console.WriteLine(emp.ToString());
+            //}
 
 
 
